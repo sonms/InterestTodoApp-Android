@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InterestTodoApp</string>
+    <string name="home">홈</string>
+    <string name="search">검색</string>
+    <string name="scrap">스크랩</string>
+    <string name="todo">Todo</string>
+    <string name="account">MY</string>
+</resources>
