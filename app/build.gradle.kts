@@ -71,7 +71,13 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
 
     //google
-    implementation ("com.google.android.gms:play-services-auth:21.3.0")
+    //implementation ("com.google.android.gms:play-services-auth:21.3.0")
+    val credential = "1.5.0" // 안정화 버전
+    val googleId = "1.1.1"
+
+    implementation("androidx.credentials:credentials:$credential")
+    implementation("androidx.credentials:credentials-play-services-auth:$credential")
+    implementation("com.google.android.libraries.identity.googleid:googleid:$googleId")
 
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")

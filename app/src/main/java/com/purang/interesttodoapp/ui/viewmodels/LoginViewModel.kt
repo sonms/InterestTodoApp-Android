@@ -2,16 +2,17 @@ package com.purang.interesttodoapp.ui.viewmodels
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
+/*import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.tasks.Task
 import com.purang.interesttodoapp.ui.models.ApiState
 import com.purang.interesttodoapp.ui.views.login.ApiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import okhttp3.internal.concurrent.Task*/
 
 class LoginViewModel : ViewModel() {
-    private val _loginApiState = MutableStateFlow<ApiState>(ApiState.Idle)
+    /*private val _loginApiState = MutableStateFlow<ApiState>(ApiState.Idle)
     val loginApiState: StateFlow<ApiState> = _loginApiState
 
     fun handleGoogleSignInResult(task: Task<GoogleSignInAccount>?) {
@@ -34,5 +35,5 @@ class LoginViewModel : ViewModel() {
             Log.e("LoginViewModel", "Google sign in failed: ${e.statusCode}")
             _loginApiState.value = ApiState.Error("Google 로그인 실패")
         }
-    }
+    }*/
 }
